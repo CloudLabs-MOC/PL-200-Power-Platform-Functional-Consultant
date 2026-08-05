@@ -64,9 +64,9 @@ In this task, you will perform the following changes to the Project Outcome form
 
    - Replace the existing formula with following **(6)**:
 
-    ```powerappsfl
-    Patch('Project Outcomes', Self.Selected.Item, {'Outcome Completed Date': Now()})
-    ```
+        ```powerappsfl
+        Patch('Project Outcomes', Self.Selected.Item, {'Outcome Completed Date': Now()})
+        ```
 
    - Enter `Project Outcome complete` for **Tooltip title (7)**.
 

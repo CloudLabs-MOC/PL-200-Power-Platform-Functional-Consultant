@@ -9,7 +9,7 @@ In this practice lab, you will explore your Power Pages portal and expose Milest
 ## Lab objectives
 In this lab, you will perform:
 
-- Exercise 1: Sign up for Power Pages
++ Exercise 1: Sign up for Power Pages
 + Exercise 2: Explore and configure a Power Pages site
 + Exercise 3: Expose Dataverse data
 

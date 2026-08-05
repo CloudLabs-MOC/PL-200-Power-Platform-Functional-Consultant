@@ -36,23 +36,23 @@ In this exercise, you will import the main solution into the **Development** env
 
 ### Task 1.1: Main solution
 
-1.  Navigate to `https://make.powerapps.com`
+1. Navigate to `https://make.powerapps.com`
 
-1.  Click on **Environment (1)** from the top right corner and make sure you are in your **PL Development (2)** environment.
+1. Click on **Environment (1)** from the top right corner and make sure you are in your **PL Development (2)** environment.
 
      ![](../media/pl200-p5t1p1.png)
     
-1.  Select **Solutions (1)** and then select **Import solution (2)**.
+1. Select **Solutions (1)** and then select **Import solution (2)**.
 
      ![](../media/pl200-p5t1p2.png)
 
-1.  Select **Browse (1)** and in the Open window navigate to `C:\Allfiles\Labs` **(2)** and locate the **FabrikamEnvironmental_1_1_11_3.zip (3)** file and select **Open (4)**. Select **Next (5)**.
+1. Select **Browse (1)** and in the Open window navigate to `C:\Allfiles\Labs` **(2)** and locate the **FabrikamEnvironmental_1_1_11_3.zip (3)** file and select **Open (4)**. Select **Next (5)**.
 
      ![](../media/pl200-p5t1p3.png)
 
      ![](../media/pl200-p5t1p4.png)
 
- 1.  Select **Next** again.
+ 1. Select **Next** again.
 
      ![](../media/pl200-p5t1p5.png)
 
@@ -82,7 +82,7 @@ In this exercise, you will import the main solution into the **Development** env
 
 ## Task 1.2: Set preferred solution
 
-1.  Navigate to `https://make.powerapps.com`
+1. Navigate to `https://make.powerapps.com`
 
 1. Make sure you are in the **PL Development** environment.
 
@@ -100,11 +100,11 @@ In this exercise, you will import data the into the **PL Environment** environme
 
 ### Task 2.1: Download and install Power Platform CLI
 
-1.  Download the Power Platform CLI from `https://aka.ms/PowerAppsCLI`, then from the browser’s **Downloads** section select **Open file** for **powerapps-cli-1.0.msi** to start the installation.
+1. Download the Power Platform CLI from `https://aka.ms/PowerAppsCLI`, then from the browser’s **Downloads** section select **Open file** for **powerapps-cli-1.0.msi** to start the installation.
 
      ![](../media/pl200-p5t2p1.png)
 
-1.  In the setup wizard, accept the license agreement **(1)**, click **Install (2)**, and follow the prompts to complete the installation, then select **Finish**.
+1. In the setup wizard, accept the license agreement **(1)**, click **Install (2)**, and follow the prompts to complete the installation, then select **Finish**.
 
      ![](../media/pl200-p5t2p2.png)
 
@@ -128,13 +128,13 @@ In this exercise, you will import data the into the **PL Environment** environme
 
      ![](../media/pl200-p5t2p6(2).png)
 
-1.  In the Command prompt, launch the **Configuration Migration Tool** using the following command:
+1. In the Command prompt, launch the **Configuration Migration Tool** using the following command:
 
     ```
     pac tool cmt
     ``` 
 
-1.  Select **Import data (1)** and the select **Continue (2)**.
+1. Select **Import data (1)** and the select **Continue (2)**.
 
      ![](../media/pl200-p5t2p5.png)
 
@@ -149,11 +149,11 @@ In this exercise, you will import data the into the **PL Environment** environme
      
           ![](../media/pl200-p5t2p6.png)
 
-1.  Choose the **PL Development (1)** environment and then select **Login (2)**.
+1. Choose the **PL Development (1)** environment and then select **Login (2)**.
 
      ![](../media/pl200-p5t2p7.png)
 
-1.  Select the **ellipsis (...) (1)**, navigate to `C:\AllFiles\Labs` **(2)**, choose the **Fabrikam Environment data (3)** zip file, and click **Open (4)**.
+1. Select the **ellipsis (...) (1)**, navigate to `C:\AllFiles\Labs` **(2)**, choose the **Fabrikam Environment data (3)** zip file, and click **Open (4)**.
 
      ![](../media/pl200-p5t2p8.png)
 
@@ -161,23 +161,23 @@ In this exercise, you will import data the into the **PL Environment** environme
 
      ![](../media/pl200-p5t2p9.png)
 
-1.  Select **Exit**.
+1. Select **Exit**.
 
      ![](../media/pl200-p5t2p10.png)
 
-1.  Select the **X** to close the Configuration Migration Tool.
+1. Select the **X** to close the Configuration Migration Tool.
 
 ### Task 2.3: Load Outcome Excel file to OneDrive
 
-1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Select the **Waffle (1)** button in the upper left corner to change applications and select **OneDrive (2)**. (It may take a moment for your OneDrive to be set up. Select **Your OneDrive is ready** when you see it on the screen.)
+1. Select the **Waffle (1)** button in the upper left corner to change applications and select **OneDrive (2)**. (It may take a moment for your OneDrive to be set up. Select **Your OneDrive is ready** when you see it on the screen.)
 
      ![](../media/pl200-p5t2p11.png)
 
-1.  It will open in a new tab in the browser, select **+ Create or upload (1)** and select **Files upload (2)**.
+1. It will open in a new tab in the browser, select **+ Create or upload (1)** and select **Files upload (2)**.
 
-1.  Navigate to `C:\Allfiles\Labs` **(3)** and select the **Outcome data.xlsx (4)** file and select **Open (5)**.
+1. Navigate to `C:\Allfiles\Labs` **(3)** and select the **Outcome data.xlsx (4)** file and select **Open (5)**.
      
      ![](../media/pl200-p5t2p11(1).png)
      
@@ -185,103 +185,103 @@ In this exercise, you will import data the into the **PL Environment** environme
 
 ### Task 2.4: Create a dataflow to import Outcomes
 
-1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Make sure you are in the **PL Development** environment.
+1. Make sure you are in the **PL Development** environment.
 
-1.  Select **Tables (1)** from the left navigation menu.
+1. Select **Tables (1)** from the left navigation menu.
 
-1.  Select **Import (2)** from the action menu, then select **Import data with Dataflows (3)**, and then select **Excel workbook (4)** as the source.
+1. Select **Import (2)** from the action menu, then select **Import data with Dataflows (3)**, and then select **Excel workbook (4)** as the source.
 
      ![](../media/pl200-p5t2p13.png)
 
      ![](../media/pl200-p5t2p14.png)
 
-1.  Select **Browse OneDrive...**, if prompted, sign in with your Microsoft 365 credentials.
+1. Select **Browse OneDrive...**, if prompted, sign in with your Microsoft 365 credentials.
 
      ![](../media/pl200-p5t2p15.png)
 
-1.  Select the **Outcome data.xlsx (1)** file and then select **Select (2)**.
+1. Select the **Outcome data.xlsx (1)** file and then select **Select (2)**.
 
      ![](../media/pl200-p5t2p17.png)
 
-1.  Select **Next**.
+1. Select **Next**.
 
-1.  Check the box next to **Table1 (1)**.
+1. Check the box next to **Table1 (1)**.
 
-1.  Select **Next (2)**. Do not navigate away from this page.
+1. Select **Next (2)**. Do not navigate away from this page.
 
      ![](../media/pl200-p5t2p16.png)
 
-1.  Select the first three **Do Not Modify** columns. 
+1. Select the first three **Do Not Modify** columns. 
 
      >**Note:** You can hold **Ctrl** on the keyboard and click with the mouse to select multiple columns.
 
-1.  On the **Home (1)** tab of the ribbon, use the **carrot icon (2)** at the far right side of the ribbon to expand the Home tab buttons. Select **Remove columns (3)** drop-down and select **Remove columns (4)** to remove these three columns.
+1. On the **Home (1)** tab of the ribbon, use the **carrot icon (2)** at the far right side of the ribbon to expand the Home tab buttons. Select **Remove columns (3)** drop-down and select **Remove columns (4)** to remove these three columns.
 
      ![](../media/pl200-p5t2p18.png)
 
-1.  Select the **Estimated Completion Date** column.
+1. Select the **Estimated Completion Date** column.
 
-1.  Right-click on the **Estimated Completion Date (1)** column and select **Replace values... (2)**.
+1. Right-click on the **Estimated Completion Date (1)** column and select **Replace values... (2)**.
 
      ![](../media/pl200-p5t2p19.png)
 
-1.  Enter `null` for **Value to find (1)**.
+1. Enter `null` for **Value to find (1)**.
 
-1.  For **Replace with (2)**, enter a date in three months time. Use date format **MM/DD/YYYY**.
+1. For **Replace with (2)**, enter a date in three months time. Use date format **MM/DD/YYYY**.
 
-1.  Select **OK (3)**. The Estimated Completion Dates should show the date chosen.
+1. Select **OK (3)**. The Estimated Completion Dates should show the date chosen.
 
      ![](../media/pl200-p5t2p20.png)
 
-1.  Select **Next**.
+1. Select **Next**.
 
-1.  Select **Load to existing table (1)**.
+1. Select **Load to existing table (1)**.
 
-1.  Select **contoso_outcome (2)** from the **Destination table** drop-down.
+1. Select **contoso_outcome (2)** from the **Destination table** drop-down.
 
      ![](../media/pl200-p5t2p21.png)
 
-1.  Expand **Column mapping (3)** and check if **Estimated Completion Date**, **Goal**, **Outcome Description**, **Outcome Title**, and **Target Aim** are mapped **(4)** to their corresponding destination columns.
+1. Expand **Column mapping (3)** and check if **Estimated Completion Date**, **Goal**, **Outcome Description**, **Outcome Title**, and **Target Aim** are mapped **(4)** to their corresponding destination columns.
 
-1.  Select **Next (5)**.
+1. Select **Next (5)**.
 
      ![](../media/pl200-p5t2p22.png)
 
-1.  Select **Refresh manually**.
+1. Select **Refresh manually**.
 
-1.  Select **Publish**.
+1. Select **Publish**.
 
 ### Task 2.5: Test Your work
 
-1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Select **Tables**.
+1. Select **Tables**.
 
-1.  Locate and open the **Outcome** table.
+1. Locate and open the **Outcome** table.
 
-1.  You should see all the imported **Outcome** rows.
+1. You should see all the imported **Outcome** rows.
 
-1.  In the Maker portal, select **Apps (1)** from the left navigation.
+1. In the Maker portal, select **Apps (1)** from the left navigation.
 
-1.  For the **Environmental Project Delivery** model-driven app, select the ellipsis **(...) (2)** and select **Play (3)**, signing in with your Microsoft 365 credentials if prompted.
+1. For the **Environmental Project Delivery** model-driven app, select the ellipsis **(...) (2)** and select **Play (3)**, signing in with your Microsoft 365 credentials if prompted.
 
      ![](../media/pl200-p5t2p23.png)
 
-1.  In the left navigation of the app, select **Outcomes**.
+1. In the left navigation of the app, select **Outcomes**.
 
-1.  The imported **Outcome** records should be in the view.
+1. The imported **Outcome** records should be in the view.
 
      ![](../media/pl200-p5t2p24.png)
 
      >**Note:** Records make take upto 10-15mins to reflect. 
 
-1.  Select the title to open one of the imported **Outcome** records.
+1. Select the title to open one of the imported **Outcome** records.
 
-1.  Verify the **Estimated Completion Date** column is set to the future date.
+1. Verify the **Estimated Completion Date** column is set to the future date.
 
-1.  Verify the **Outcome Lifecycle** business process flow is visible at the top of the form.
+1. Verify the **Outcome Lifecycle** business process flow is visible at the top of the form.
 
 ## Review
 In this lab, you prepared the development environment by importing solutions and data into Dataverse. You configured the preferred solution, used the Configuration Migration Tool and dataflows to load data, and validated the setup by reviewing records in the model-driven app. Great work!

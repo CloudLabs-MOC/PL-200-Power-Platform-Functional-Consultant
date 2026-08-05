@@ -9,7 +9,8 @@ In this practice lab, you will implement duplicate detection rules so that dupli
 ## Lab objectives
 In this lab, you will perform:
 
-+ Task 1: Create duplicate detection rule
++ Exercise 1: Create new duplicate detection rule
+    + Task 1.1: Create duplicate detection rule
   
 ## Exercise 1: Create new duplicate detection rule
 

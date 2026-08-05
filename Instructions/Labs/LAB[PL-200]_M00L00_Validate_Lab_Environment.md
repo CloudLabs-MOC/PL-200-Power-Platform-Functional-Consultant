@@ -30,7 +30,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
     
         ![](../media/pl200-p2t1p3.png)
 
-1.  Select **Yes** to stay signed in.
+1. Select **Yes** to stay signed in.
 
     ![](../media/pl200-p2t1p4.png)
 

@@ -10,7 +10,8 @@ In this practice lab, you will be creating business rules to show and hide the l
 In this lab, you will perform:
 
 + Exercise 1: Create business rules
-+ Task 2: Create Milestone business rules
+    + Task 1.1: Create Resource business rules
+    + Task 1.2: Create Milestone business rules
   
 ## Exercise 1: Create business rules
 
