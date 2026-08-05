@@ -12,6 +12,10 @@ Next, you’ll implement security through users, teams, and roles, and enhance f
 
 Finally, you’ll package and deploy solutions across environments, gaining end-to-end experience in designing, customizing, securing, and deploying scalable business applications.
 
+>**Note**: <span style="color:maroon;"> Once you launch the track, you'll have access to a virtual machine (VM) with **40 hours of runtime**. Assuming you use the VM for **8 hours per day** and stop/deallocate it after each session, those 40 runtime hours will span approximately **4 days and 8 hours of elapsed time** (5 lab sessions). Please plan your lab sessions accordingly. If the 40 hours of VM runtime are exhausted before you complete the labs, access will be lost. To avoid this, stop or deallocate the VM from the **Resources** tab when you're finished for the day. Refer to the **[Managing Your Virtual Machine](#managing-your-virtual-machine)** section for step-by-step instructions.  
+
+> <span style="color:maroon;"> If the full 40 hours of VM uptime is exhausted, the VM will no longer be accessible, and **the lab duration cannot be extended**.
+
 ## Objectives
 
 By the end of this lab series, you will be able to:
